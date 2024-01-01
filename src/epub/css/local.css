@@ -117,8 +117,12 @@ p span.i6{
 	text-align: center;
 }
 
-.line-break span:last-child{
-	vertical-align: -100%;
+.dl3 span:first-child{
+	vertical-align: 200%;
+}
+
+.dl3 span:nth-child(2){
+	vertical-align: 100%;
 }
 
 #to-midnight-nan-at-leroys p:nth-of-type(2n){
