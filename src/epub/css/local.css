@@ -125,7 +125,8 @@ p span.i6{
 	vertical-align: 100%;
 }
 
-#to-midnight-nan-at-leroys p:nth-of-type(2n){
+#to-midnight-nan-at-leroys p:nth-of-type(2),
+#to-midnight-nan-at-leroys p:nth-of-type(4){
 	font-style: italic;
 }
 
