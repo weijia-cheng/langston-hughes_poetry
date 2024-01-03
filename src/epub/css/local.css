@@ -15,14 +15,8 @@ section{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
-[epub|type~="z3998:hymn"] [epub|type~="bridgehead"],
 [epub|type~="z3998:poem"] [epub|type~="bridgehead"],
-[epub|type~="z3998:song"] [epub|type~="bridgehead"],
-[epub|type~="z3998:verse"] [epub|type~="bridgehead"]{
+[epub|type~="z3998:song"] [epub|type~="bridgehead"]{
 	text-align: justify;
 }
 /* End bridgeheads */
@@ -34,31 +28,14 @@ section{
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
-[epub|type~="epigraph"] i{
-	font-style: normal;
-}
-
-[epub|type~="epigraph"] cite{
-	font-style: normal;
-	font-variant: small-caps;
-	margin-top: 1em;
-}
-
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
-
 [epub|type~="z3998:poem"] [epub|type~="epigraph"] p{
 	text-align: center;
 }
 /* End epigraphs */
 
 /* Begin poetry */
-[epub|type~="z3998:hymn"] hgroup p,
 [epub|type~="z3998:poem"] hgroup p,
-[epub|type~="z3998:song"] hgroup p,
-[epub|type~="z3998:verse"] hgroup p{
+[epub|type~="z3998:song"] hgroup p{
 	text-align: center;
 }
 
