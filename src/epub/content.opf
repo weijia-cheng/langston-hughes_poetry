@@ -51,6 +51,10 @@
 		<dc:source>https://archive.org/details/newnegrointerpre00unse</dc:source>
 		<!--End collections-->
 		<!--Begin periodicals-->
+		<!--The Brownies’ Book-->
+		<!--1921-01, 1921-03, 1921-04, 1921-08, 1921-11-->
+		<dc:source>http://childlit.unl.edu/topics/edi.brownies.html</dc:source>
+		<dc:source>https://archive.org/details/the-brownies-book</dc:source>
 		<!--Crisis-->
 		<!--1922-03, 1922-05-->
 		<dc:source>https://archive.org/details/crisis2324dubo</dc:source>
